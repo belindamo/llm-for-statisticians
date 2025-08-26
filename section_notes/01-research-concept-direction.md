@@ -1,15 +1,5 @@
 # Research Concept & Direction
 
-## Overview
+Build on top of this prior work
 
-*Define your research problem and objectives here...*
-
-## Key Research Questions
-
-1. 
-2. 
-3. 
-
-## Methodology
-
-*Describe your overall approach...*
+https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TUAzs3sAAAAJ&sortby=pubdate&citation_for_view=TUAzs3sAAAAJ:HE397vMXCloC
