@@ -2,4 +2,4 @@
 
 Build on top of this prior work
 
-https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TUAzs3sAAAAJ&sortby=pubdate&citation_for_view=TUAzs3sAAAAJ:HE397vMXCloC
+https://arxiv.org/abs/2503.20561
