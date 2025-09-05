@@ -25,7 +25,7 @@ Our experimental approach focuses on validating the theoretical framework that t
   * Use standardized function families: Legendre polynomials, Fourier series, rational functions
 * **Expected Outcomes**: Approximation error decreases with increased prompt sophistication and follows theoretical bounds
 * **Success Metrics**:
-  * L2 approximation error \< 10^-3 for β\=1,2 functions
+  * L2 approximation error \\< 10^-3 for β\=1,2 functions
   * Convergence rate matches theoretical O(n^(-β/d)) bounds
   * Successful approximation of 90%+ functions in test suite
 * **Dependent Variables**: Approximation error, convergence rate
@@ -87,7 +87,7 @@ Our experimental approach focuses on validating the theoretical framework that t
 * **Success Metrics**:
   * Empirical approximation bounds within 2x of theoretical predictions
   * Clear power-law scaling relationship between model size and precision
-  * Identification of critical failure modes and their frequency (\< 5% for smooth functions)
+  * Identification of critical failure modes and their frequency (\\< 5% for smooth functions)
 * **Dependent Variables**: Maximum achievable precision, computational cost, failure rate
 * **Independent Variables**: Model size, function complexity, approximation target precision
 * **Validity Threats**: Limited model access, computational constraints; mitigation via strategic sampling
