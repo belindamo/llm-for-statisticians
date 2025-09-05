@@ -1,5 +1,3 @@
-
-
 # Datasets
 
 ## Overview
@@ -20,7 +18,7 @@ The focus aligns with theoretical frameworks for prompt engineering that approxi
 - **License**: Open source (check HuggingFace for specific terms)
 - **Preprocessing**: Prompts collected from existing datasets, ranked by 314 ML community members using Argilla
 - **Use Case**: Training and evaluating language models on prompt ranking tasks, studying prompt quality
-- **Access**: `from datasets import load_dataset; ds = load_dataset("DIBT/10k_prompts_ranked")`
+- **Access**: \`from datasets import load_dataset; ds = load_dataset("DIBT/10k_prompts_ranked")\`
 
 #### Prompt-Perfect Dataset
 - **Name**: Prompt-Perfect (scored datasets)
@@ -86,7 +84,7 @@ The focus aligns with theoretical frameworks for prompt engineering that approxi
 - **License**: Mixed (check individual task licenses)
 - **Preprocessing**: Standardized formats across tasks
 - **Use Case**: General language understanding evaluation baseline
-- **Access**: `datasets.load_dataset("glue", task_name)` or `datasets.load_dataset("super_glue", task_name)`
+- **Access**: \`datasets.load_dataset("glue", task_name)\` or \`datasets.load_dataset("super_glue", task_name)\`
 
 #### MMLU (Massive Multitask Language Understanding)
 - **Name**: MMLU
@@ -96,7 +94,7 @@ The focus aligns with theoretical frameworks for prompt engineering that approxi
 - **License**: MIT License
 - **Preprocessing**: Standardized multiple-choice format
 - **Use Case**: Broad knowledge and reasoning evaluation
-- **Access**: `datasets.load_dataset("lukaemon/mmlu")`
+- **Access**: \`datasets.load_dataset("lukaemon/mmlu")\`
 
 #### BIG-Bench
 - **Name**: Beyond the Imitation Game Benchmark
@@ -152,7 +150,7 @@ The focus aligns with theoretical frameworks for prompt engineering that approxi
 ### General Access Patterns
 
 #### Hugging Face Datasets
-```python
+\`\`\`python
 from datasets import load_dataset
 
 # Load prompt ranking dataset
@@ -163,10 +161,10 @@ ds = load_dataset("super_glue", "boolq")  # specific task
 
 # Load MMLU benchmark
 ds = load_dataset("lukaemon/mmlu", "abstract_algebra")  # specific subject
-```
+\`\`\`
 
 #### Repository-Based Datasets
-```bash
+\`\`\`bash
 # Clone symbolic regression repositories
 git clone https://github.com/DingShizhe/NIERT
 git clone https://github.com/yiye3/ICLEval
@@ -176,10 +174,10 @@ git clone https://github.com/google/BIG-bench
 cd repository_name
 pip install -r requirements.txt
 python setup.py install
-```
+\`\`\`
 
 #### API-Based Access
-```python
+\`\`\`python
 # For datasets requiring special handling
 import requests
 
@@ -187,7 +185,7 @@ import requests
 url = "https://symbolicregression.metademolab.com/api/dataset"
 response = requests.get(url, params={"dataset": "feynman"})
 data = response.json()
-```
+\`\`\`
 
 ### Preprocessing Requirements
 
@@ -209,4 +207,3 @@ data = response.json()
 - **Medium Datasets** (1-10GB): Consider cloud storage for team access
 - **Large Datasets** (>10GB): Distributed storage and processing recommended
 - **Computational Requirements**: Function approximation tasks may require GPU resources
-
