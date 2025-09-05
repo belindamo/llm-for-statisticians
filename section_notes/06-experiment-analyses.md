@@ -7,16 +7,18 @@
 ## Detailed Analysis
 
 ### Analysis 1
-- **Data Source**: 
-- **Method**: 
-- **Results**: 
-- **Interpretation**: 
+
+* **Data Source**:
+* **Method**:
+* **Results**:
+* **Interpretation**:
 
 ### Analysis 2
-- **Data Source**: 
-- **Method**: 
-- **Results**: 
-- **Interpretation**: 
+
+* **Data Source**:
+* **Method**:
+* **Results**:
+* **Interpretation**:
 
 ## Conclusions
 
